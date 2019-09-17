@@ -6,7 +6,7 @@
 //  Copyright © 2019 Simple IO. All rights reserved.
 //
 
-#include "pythagorasLab.h"
+#include "portfolio.h"
 #include <math.h>
 int square (double base) { //creates a function that will find the square of the number given
     

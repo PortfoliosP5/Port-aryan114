@@ -6,9 +6,14 @@
 //  Copyright © 2019 Simple IO. All rights reserved.
 //
 
-#ifndef pythagorasLab_h
-#define pythagorasLab_h
+#ifndef portfolio_h
+#define portfolio_h
 
 #include <stdio.h>
+#include <math.h>
 int pythagoras(void);
-#endif /* pythagorasLab_h */
+int rectangle(void);
+int minute(void);
+int temperature(void);
+
+#endif /* portfolio_h */

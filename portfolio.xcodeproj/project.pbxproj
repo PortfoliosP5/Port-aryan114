@@ -29,13 +29,10 @@
 /* Begin PBXFileReference section */
 		719E8039232C486D0096C395 /* portfolio */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = portfolio; sourceTree = BUILT_PRODUCTS_DIR; };
 		719E803C232C486D0096C395 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		719E8044232C48FD0096C395 /* pythagorasLab.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pythagorasLab.h; sourceTree = "<group>"; };
+		719E8044232C48FD0096C395 /* portfolio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = portfolio.h; sourceTree = "<group>"; };
 		719E8045232C48FD0096C395 /* pythagorasLab.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pythagorasLab.c; sourceTree = "<group>"; };
-		719E8047232C493F0096C395 /* rectangleLab.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rectangleLab.h; sourceTree = "<group>"; };
 		719E8048232C493F0096C395 /* rectangleLab.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rectangleLab.c; sourceTree = "<group>"; };
-		719E804A232C494E0096C395 /* timeLab.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = timeLab.h; sourceTree = "<group>"; };
 		719E804B232C494E0096C395 /* timeLab.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = timeLab.c; sourceTree = "<group>"; };
-		719E804D232C49640096C395 /* temperatureLab.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = temperatureLab.h; sourceTree = "<group>"; };
 		719E804E232C49640096C395 /* temperatureLab.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = temperatureLab.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,7 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				719E803B232C486D0096C395 /* portfolio */,
-				719E8043232C48750096C395 /* labs */,
 				719E803A232C486D0096C395 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,6 +67,8 @@
 			isa = PBXGroup;
 			children = (
 				719E803C232C486D0096C395 /* main.c */,
+				719E8044232C48FD0096C395 /* portfolio.h */,
+				719E8043232C48750096C395 /* labs */,
 			);
 			path = portfolio;
 			sourceTree = "<group>";
@@ -79,13 +77,9 @@
 			isa = PBXGroup;
 			children = (
 				719E8045232C48FD0096C395 /* pythagorasLab.c */,
-				719E8044232C48FD0096C395 /* pythagorasLab.h */,
 				719E8048232C493F0096C395 /* rectangleLab.c */,
-				719E8047232C493F0096C395 /* rectangleLab.h */,
 				719E804B232C494E0096C395 /* timeLab.c */,
-				719E804A232C494E0096C395 /* timeLab.h */,
 				719E804E232C49640096C395 /* temperatureLab.c */,
-				719E804D232C49640096C395 /* temperatureLab.h */,
 			);
 			path = labs;
 			sourceTree = "<group>";

@@ -7,7 +7,7 @@
 //
 
 #include <stdio.h>
-#include "pythagorasLab.h"
+#include "portfolio.h"
 #include <math.h>
 
 
